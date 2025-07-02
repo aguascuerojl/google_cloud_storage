@@ -8,3 +8,8 @@ gcloud sql instances create mysql-instance-source \
 --availability-type=zonal \
 --storage-size=10GB \
 --storage-type=HDD
+
+
+##CONTAR OBJETOS DE UN BUCKET
+
+gsutil ls -r gs://tres_clasificaciones/1210-LECHES DE SABORES Y FRUTAS/img/ | wc -l
